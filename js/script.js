@@ -29,13 +29,6 @@
             observer.observe(element);
         });
 
-        // Form submission
-        // document.querySelector('form').addEventListener('submit', function(e) {
-        //     e.preventDefault();
-        //     alert('Thank you for your message! I\'ll get back to you soon.');
-        //     this.reset();
-        // });
-
         // Dynamic typing effect for hero section
         const heroText = document.querySelector('.hero p');
         const texts = [
